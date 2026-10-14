@@ -1,0 +1,13 @@
+[project]
+name = "grounded-rag-api"
+version = "1.0.0"
+description = "A small, reliable RAG API that answers questions from documents with cited evidence."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"

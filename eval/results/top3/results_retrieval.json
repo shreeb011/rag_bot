@@ -1,0 +1,264 @@
+{
+  "summary": {
+    "questions": 19,
+    "retrieval": {
+      "source_recall": 0.964,
+      "mrr": 1.0,
+      "context_recall": 0.964,
+      "context_recall_multi_evidence": 0.9
+    }
+  },
+  "rows": [
+    {
+      "id": "A1",
+      "category": "answerable",
+      "question": "How many days of paid annual leave do full-time employees get?",
+      "max_similarity": 0.8307,
+      "retrieved_docs": [
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "A2",
+      "category": "answerable",
+      "question": "What is the API rate limit on the Pro plan?",
+      "max_similarity": 0.7942,
+      "retrieved_docs": [
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "A3",
+      "category": "answerable",
+      "question": "What is the minimum length for company account passwords?",
+      "max_similarity": 0.8217,
+      "retrieved_docs": [
+        "information_security_policy.pdf",
+        "information_security_policy.pdf",
+        "information_security_policy.pdf"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "A4",
+      "category": "answerable",
+      "question": "What is the daily meal allowance when travelling internationally?",
+      "max_similarity": 0.7913,
+      "retrieved_docs": [
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "A5",
+      "category": "answerable",
+      "question": "How soon after a trip do I need to submit my expense claim?",
+      "max_similarity": 0.882,
+      "retrieved_docs": [
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "A6",
+      "category": "answerable",
+      "question": "How long is data retained for Enterprise customers?",
+      "max_similarity": 0.8412,
+      "retrieved_docs": [
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "A7",
+      "category": "answerable",
+      "question": "When someone leaves the company, how quickly must their access be revoked?",
+      "max_similarity": 0.781,
+      "retrieved_docs": [
+        "information_security_policy.pdf",
+        "information_security_policy.pdf",
+        "employee_handbook.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "A8",
+      "category": "answerable",
+      "question": "Since the Starter plan includes SAML single sign-on, how do we turn it on?",
+      "max_similarity": 0.7117,
+      "retrieved_docs": [
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "A9",
+      "category": "answerable",
+      "question": "What is the maximum nightly hotel rate I can claim on a business trip to Paris?",
+      "max_similarity": 0.7644,
+      "retrieved_docs": [
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "M1",
+      "category": "multi_evidence",
+      "question": "If I lose my company laptop on a business trip, how quickly must I report it, and will I have to pay for it?",
+      "max_similarity": 0.7462,
+      "retrieved_docs": [
+        "employee_handbook.md",
+        "travel_expense_policy.md",
+        "employee_handbook.md"
+      ],
+      "source_recall": 0.5,
+      "mrr": 1.0,
+      "context_recall": 0.5
+    },
+    {
+      "id": "M2",
+      "category": "multi_evidence",
+      "question": "How many days a week can I work remotely, and what do I need to do before using public Wi-Fi in a cafe?",
+      "max_similarity": 0.7232,
+      "retrieved_docs": [
+        "information_security_policy.pdf",
+        "employee_handbook.md",
+        "employee_handbook.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "M3",
+      "category": "multi_evidence",
+      "question": "Who needs to approve an international trip with an estimated cost of USD 4,000?",
+      "max_similarity": 0.802,
+      "retrieved_docs": [
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "M4",
+      "category": "multi_evidence",
+      "question": "Compare the data retention period and uptime SLA of the Pro and Enterprise plans.",
+      "max_similarity": 0.7407,
+      "retrieved_docs": [
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "M5",
+      "category": "multi_evidence",
+      "question": "For a 9-hour flight to Tokyo, which cabin class can I book and what is the nightly hotel limit there?",
+      "max_similarity": 0.7654,
+      "retrieved_docs": [
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "id": "U1",
+      "category": "unanswerable",
+      "question": "How many weeks of parental leave do employees get?",
+      "max_similarity": 0.7217,
+      "retrieved_docs": [
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md"
+      ]
+    },
+    {
+      "id": "U2",
+      "category": "unanswerable",
+      "question": "Who is the CEO of Nimbus Analytics?",
+      "max_similarity": 0.7038,
+      "retrieved_docs": [
+        "employee_handbook.md",
+        "product_faq.txt",
+        "employee_handbook.md"
+      ]
+    },
+    {
+      "id": "U3",
+      "category": "unanswerable",
+      "question": "Who won the 2022 FIFA World Cup?",
+      "max_similarity": 0.4832,
+      "retrieved_docs": [
+        "product_faq.txt",
+        "employee_handbook.md",
+        "travel_expense_policy.md"
+      ]
+    },
+    {
+      "id": "U4",
+      "category": "unanswerable",
+      "question": "What percentage of salary does the company contribute to the employee retirement fund?",
+      "max_similarity": 0.6298,
+      "retrieved_docs": [
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md"
+      ]
+    },
+    {
+      "id": "U5",
+      "category": "unanswerable",
+      "question": "How many employees does Nimbus Analytics have?",
+      "max_similarity": 0.7528,
+      "retrieved_docs": [
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      # Reach an Ollama server running on the host machine. Override both for OpenAI or other providers.
+      RAG_EMBEDDING_BASE_URL: ${RAG_EMBEDDING_BASE_URL_DOCKER:-http://host.docker.internal:11434/v1}
+      RAG_LLM_BASE_URL: ${RAG_LLM_BASE_URL_DOCKER:-http://host.docker.internal:11434/v1}
+      RAG_DATA_DIR: /data
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - rag-data:/data
+
+volumes:
+  rag-data:

@@ -1,0 +1,34 @@
+NIMBUS INSIGHT - PRODUCT FAQ
+Last updated: 15 May 2025
+
+Nimbus Insight is the cloud analytics platform built by Nimbus Analytics. This FAQ answers common customer questions about plans, limits and data handling.
+
+Q: What plans are available and how much do they cost?
+A: Nimbus Insight is sold in three plans. Starter costs USD 49 per month and includes up to 5 users. Pro costs USD 199 per month and includes up to 25 users. Enterprise has custom pricing and unlimited users. Paying annually instead of monthly gives a 15% discount on Starter and Pro.
+
+Q: Is there a free trial?
+A: Yes. New customers can try the Pro plan free for 14 days. No credit card is required to start the trial.
+
+Q: What are the API rate limits?
+A: API requests are limited per workspace. Starter allows 60 requests per minute, Pro allows 600 requests per minute, and Enterprise allows 3,000 requests per minute by default (the Enterprise limit can be raised on request). Requests over the limit receive an HTTP 429 response with a Retry-After header.
+
+Q: How long is my data retained?
+A: Query history and dashboards are retained for 90 days on Starter, 1 year on Pro, and 7 years on Enterprise (Enterprise retention is configurable). When a workspace is deleted, all of its data is permanently purged within 30 days.
+
+Q: Where is my data stored?
+A: Nimbus Insight runs in three regions: Frankfurt (EU), Virginia (US) and Mumbai (India). Starter and Pro workspaces are created in the Virginia region. Enterprise customers can choose any of the three regions.
+
+Q: What uptime do you guarantee?
+A: Enterprise includes a 99.95% monthly uptime SLA with service credits. Pro includes a 99.9% monthly uptime SLA. Starter has no SLA.
+
+Q: What support is included?
+A: Starter includes email support with a response within 2 business days. Pro includes email and chat support with a response within 8 business hours. Enterprise includes 24/7 phone support with a 1-hour response time for Severity 1 incidents and a named customer success manager.
+
+Q: Which data sources can I connect?
+A: Built-in connectors are available for Snowflake, Google BigQuery, PostgreSQL, MySQL and Salesforce. Custom sources can be loaded through the REST API or CSV upload (maximum 2 GB per file).
+
+Q: Do you support single sign-on?
+A: SAML 2.0 single sign-on and SCIM user provisioning are available on the Enterprise plan only. Pro supports sign-in with Google. Starter supports email and password sign-in.
+
+Q: How do I cancel my subscription?
+A: Monthly plans can be cancelled at any time from the Billing page and remain active until the end of the current billing period. Annual plans are not refundable after the first 30 days.

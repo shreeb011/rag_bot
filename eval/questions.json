@@ -1,0 +1,137 @@
+[
+  {
+    "id": "A1",
+    "category": "answerable",
+    "question": "How many days of paid annual leave do full-time employees get?",
+    "expected_sources": ["employee_handbook.md"],
+    "expected_facts": ["24"]
+  },
+  {
+    "id": "A2",
+    "category": "answerable",
+    "question": "What is the API rate limit on the Pro plan?",
+    "expected_sources": ["product_faq.txt"],
+    "expected_facts": ["600"]
+  },
+  {
+    "id": "A3",
+    "category": "answerable",
+    "question": "What is the minimum length for company account passwords?",
+    "expected_sources": ["information_security_policy.pdf"],
+    "expected_facts": ["14"]
+  },
+  {
+    "id": "A4",
+    "category": "answerable",
+    "question": "What is the daily meal allowance when travelling internationally?",
+    "expected_sources": ["travel_expense_policy.md"],
+    "expected_facts": ["60"]
+  },
+  {
+    "id": "A5",
+    "category": "answerable",
+    "question": "How soon after a trip do I need to submit my expense claim?",
+    "expected_sources": ["travel_expense_policy.md"],
+    "expected_facts": ["30 days"]
+  },
+  {
+    "id": "A6",
+    "category": "answerable",
+    "question": "How long is data retained for Enterprise customers?",
+    "expected_sources": ["product_faq.txt"],
+    "expected_facts": ["7 years|seven years"]
+  },
+  {
+    "id": "A7",
+    "category": "answerable",
+    "question": "When someone leaves the company, how quickly must their access be revoked?",
+    "expected_sources": ["information_security_policy.pdf"],
+    "expected_facts": ["24 hours"]
+  },
+  {
+    "id": "A8",
+    "category": "answerable",
+    "note": "False premise: SAML SSO is Enterprise-only. The answer must correct the premise, not play along.",
+    "question": "Since the Starter plan includes SAML single sign-on, how do we turn it on?",
+    "expected_sources": ["product_faq.txt"],
+    "expected_facts": ["Enterprise"]
+  },
+  {
+    "id": "A9",
+    "category": "answerable",
+    "note": "Requires applying a general rule: Paris is not one of the higher-limit cities.",
+    "question": "What is the maximum nightly hotel rate I can claim on a business trip to Paris?",
+    "expected_sources": ["travel_expense_policy.md"],
+    "expected_facts": ["180"]
+  },
+  {
+    "id": "M1",
+    "category": "multi_evidence",
+    "question": "If I lose my company laptop on a business trip, how quickly must I report it, and will I have to pay for it?",
+    "expected_sources": ["information_security_policy.pdf", "employee_handbook.md"],
+    "expected_facts": ["4 hours|four hours", "not charged|no charge|will not be charged|won't be charged|not be charged|not have to pay|won't have to pay"]
+  },
+  {
+    "id": "M2",
+    "category": "multi_evidence",
+    "question": "How many days a week can I work remotely, and what do I need to do before using public Wi-Fi in a cafe?",
+    "expected_sources": ["employee_handbook.md", "information_security_policy.pdf"],
+    "expected_facts": ["3 days|three days|up to 3", "NimbusConnect|VPN"]
+  },
+  {
+    "id": "M3",
+    "category": "multi_evidence",
+    "question": "Who needs to approve an international trip with an estimated cost of USD 4,000?",
+    "expected_sources": ["travel_expense_policy.md"],
+    "expected_facts": ["manager", "department head", "CFO|Chief Financial Officer"]
+  },
+  {
+    "id": "M4",
+    "category": "multi_evidence",
+    "question": "Compare the data retention period and uptime SLA of the Pro and Enterprise plans.",
+    "expected_sources": ["product_faq.txt"],
+    "expected_facts": ["1 year|one year", "7 years|seven years", "99.9%", "99.95%"]
+  },
+  {
+    "id": "M5",
+    "category": "multi_evidence",
+    "question": "For a 9-hour flight to Tokyo, which cabin class can I book and what is the nightly hotel limit there?",
+    "expected_sources": ["travel_expense_policy.md"],
+    "expected_facts": ["premium economy", "250"]
+  },
+  {
+    "id": "U1",
+    "category": "unanswerable",
+    "question": "How many weeks of parental leave do employees get?",
+    "expected_sources": [],
+    "expected_facts": []
+  },
+  {
+    "id": "U2",
+    "category": "unanswerable",
+    "question": "Who is the CEO of Nimbus Analytics?",
+    "expected_sources": [],
+    "expected_facts": []
+  },
+  {
+    "id": "U3",
+    "category": "unanswerable",
+    "question": "Who won the 2022 FIFA World Cup?",
+    "expected_sources": [],
+    "expected_facts": []
+  },
+  {
+    "id": "U4",
+    "category": "unanswerable",
+    "question": "What percentage of salary does the company contribute to the employee retirement fund?",
+    "expected_sources": [],
+    "expected_facts": []
+  },
+  {
+    "id": "U5",
+    "category": "unanswerable",
+    "question": "How many employees does Nimbus Analytics have?",
+    "expected_sources": [],
+    "expected_facts": []
+  }
+]

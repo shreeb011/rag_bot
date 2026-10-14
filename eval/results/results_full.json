@@ -1,0 +1,522 @@
+{
+  "summary": {
+    "questions": 19,
+    "retrieval": {
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "context_recall_multi_evidence": 1.0
+    },
+    "answers": {
+      "pass_rate": 0.895,
+      "answerable_pass_rate": 0.857,
+      "fact_coverage": 0.857,
+      "citation_precision": 0.929,
+      "false_abstentions": 1,
+      "abstention_accuracy_unanswerable": 1.0,
+      "hallucinated_answers_to_unanswerable": 0,
+      "median_latency_s": 4.77
+    }
+  },
+  "rows": [
+    {
+      "id": "A1",
+      "category": "answerable",
+      "question": "How many days of paid annual leave do full-time employees get?",
+      "max_similarity": 0.8307,
+      "retrieved_docs": [
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "travel_expense_policy.md",
+        "employee_handbook.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 9.05,
+      "status": "answered",
+      "reason": null,
+      "answer": "Full-time employees receive 24 days of paid annual leave per calendar year [S1].",
+      "cited_docs": [
+        "employee_handbook.md"
+      ],
+      "warnings": [],
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "passed": true
+    },
+    {
+      "id": "A2",
+      "category": "answerable",
+      "question": "What is the API rate limit on the Pro plan?",
+      "max_similarity": 0.7942,
+      "retrieved_docs": [
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 2.95,
+      "status": "answered",
+      "reason": null,
+      "answer": "The API rate limit on the Pro plan is 600 requests per minute [S1].",
+      "cited_docs": [
+        "product_faq.txt"
+      ],
+      "warnings": [],
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "passed": true
+    },
+    {
+      "id": "A3",
+      "category": "answerable",
+      "question": "What is the minimum length for company account passwords?",
+      "max_similarity": 0.8217,
+      "retrieved_docs": [
+        "information_security_policy.pdf",
+        "information_security_policy.pdf",
+        "information_security_policy.pdf",
+        "information_security_policy.pdf",
+        "employee_handbook.md",
+        "employee_handbook.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 2.97,
+      "status": "answered",
+      "reason": null,
+      "answer": "The minimum length for company account passwords is 14 characters [S1].",
+      "cited_docs": [
+        "information_security_policy.pdf"
+      ],
+      "warnings": [],
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "passed": true
+    },
+    {
+      "id": "A4",
+      "category": "answerable",
+      "question": "What is the daily meal allowance when travelling internationally?",
+      "max_similarity": 0.7913,
+      "retrieved_docs": [
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 8.3,
+      "status": "answered",
+      "reason": null,
+      "answer": "The daily meal allowance when travelling internationally is USD 60 per day [S1].",
+      "cited_docs": [
+        "travel_expense_policy.md"
+      ],
+      "warnings": [],
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "passed": true
+    },
+    {
+      "id": "A5",
+      "category": "answerable",
+      "question": "How soon after a trip do I need to submit my expense claim?",
+      "max_similarity": 0.882,
+      "retrieved_docs": [
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 3.81,
+      "status": "answered",
+      "reason": null,
+      "answer": "You need to submit your expense claim within 30 days of the end of the trip [S1].",
+      "cited_docs": [
+        "travel_expense_policy.md"
+      ],
+      "warnings": [],
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "passed": true
+    },
+    {
+      "id": "A6",
+      "category": "answerable",
+      "question": "How long is data retained for Enterprise customers?",
+      "max_similarity": 0.8412,
+      "retrieved_docs": [
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt",
+        "information_security_policy.pdf",
+        "information_security_policy.pdf",
+        "information_security_policy.pdf"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 9.09,
+      "status": "answered",
+      "reason": null,
+      "answer": "Enterprise customers have data retention of 7 years, and this retention is configurable [S1].",
+      "cited_docs": [
+        "product_faq.txt"
+      ],
+      "warnings": [],
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "passed": true
+    },
+    {
+      "id": "A7",
+      "category": "answerable",
+      "question": "When someone leaves the company, how quickly must their access be revoked?",
+      "max_similarity": 0.781,
+      "retrieved_docs": [
+        "information_security_policy.pdf",
+        "information_security_policy.pdf",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "information_security_policy.pdf",
+        "employee_handbook.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 4.77,
+      "status": "answered",
+      "reason": null,
+      "answer": "When someone leaves the company, all of their access must be revoked within 24 hours of their last working day [S1].",
+      "cited_docs": [
+        "information_security_policy.pdf"
+      ],
+      "warnings": [],
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "passed": true
+    },
+    {
+      "id": "A8",
+      "category": "answerable",
+      "question": "Since the Starter plan includes SAML single sign-on, how do we turn it on?",
+      "max_similarity": 0.7117,
+      "retrieved_docs": [
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt",
+        "employee_handbook.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 1.63,
+      "status": "unavailable",
+      "reason": "not_in_documents",
+      "answer": "I could not find this information in the provided documents.",
+      "cited_docs": [],
+      "warnings": [],
+      "fact_coverage": 0.0,
+      "citation_precision": 0.0,
+      "passed": false
+    },
+    {
+      "id": "A9",
+      "category": "answerable",
+      "question": "What is the maximum nightly hotel rate I can claim on a business trip to Paris?",
+      "max_similarity": 0.7644,
+      "retrieved_docs": [
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "employee_handbook.md",
+        "product_faq.txt",
+        "travel_expense_policy.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 12.2,
+      "status": "answered",
+      "reason": null,
+      "answer": "The maximum nightly hotel rate for international travel is USD 250 per night, which applies to cities such as London, New York, Tokyo, and Singapore. Since Paris is an international destination, the same limit applies. [S1]",
+      "cited_docs": [
+        "travel_expense_policy.md"
+      ],
+      "warnings": [],
+      "fact_coverage": 0.0,
+      "citation_precision": 1.0,
+      "passed": false
+    },
+    {
+      "id": "M1",
+      "category": "multi_evidence",
+      "question": "If I lose my company laptop on a business trip, how quickly must I report it, and will I have to pay for it?",
+      "max_similarity": 0.7462,
+      "retrieved_docs": [
+        "employee_handbook.md",
+        "travel_expense_policy.md",
+        "employee_handbook.md",
+        "travel_expense_policy.md",
+        "information_security_policy.pdf",
+        "information_security_policy.pdf"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 14.65,
+      "status": "answered",
+      "reason": null,
+      "answer": "You must report the loss of your company laptop within 4 hours of discovering it, as required by the Information Security Policy [S5]. If it is reported within the required time, the first loss is not charged to you, provided it was reported within the required time [S1]. For any further loss within 24 months, you may be charged up to 50% of the device's depreciated value [S1]. Therefore, you will not have to pay for the first loss if reported promptly, but could be charged up to 50% of the depreciated value for subsequent losses within 24 months [S1].",
+      "cited_docs": [
+        "information_security_policy.pdf",
+        "employee_handbook.md"
+      ],
+      "warnings": [],
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "passed": true
+    },
+    {
+      "id": "M2",
+      "category": "multi_evidence",
+      "question": "How many days a week can I work remotely, and what do I need to do before using public Wi-Fi in a cafe?",
+      "max_similarity": 0.7232,
+      "retrieved_docs": [
+        "information_security_policy.pdf",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "information_security_policy.pdf",
+        "information_security_policy.pdf"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 6.11,
+      "status": "answered",
+      "reason": null,
+      "answer": "You can work remotely for up to 3 days per week [S2]. Before using public Wi-Fi in a cafe, you must be connected to the company VPN, NimbusConnect [S1].",
+      "cited_docs": [
+        "employee_handbook.md",
+        "information_security_policy.pdf"
+      ],
+      "warnings": [],
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "passed": true
+    },
+    {
+      "id": "M3",
+      "category": "multi_evidence",
+      "question": "Who needs to approve an international trip with an estimated cost of USD 4,000?",
+      "max_similarity": 0.802,
+      "retrieved_docs": [
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "product_faq.txt",
+        "travel_expense_policy.md"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 10.66,
+      "status": "answered",
+      "reason": null,
+      "answer": "An international trip with an estimated cost of USD 4,000 requires approval from both the manager and the department head, as international trips require approval from both the manager and the department head [S1]. Additionally, because the total estimated cost exceeds USD 3,000, approval from the Chief Financial Officer (CFO) is also required [S1].",
+      "cited_docs": [
+        "travel_expense_policy.md"
+      ],
+      "warnings": [],
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "passed": true
+    },
+    {
+      "id": "M4",
+      "category": "multi_evidence",
+      "question": "Compare the data retention period and uptime SLA of the Pro and Enterprise plans.",
+      "max_similarity": 0.7407,
+      "retrieved_docs": [
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt",
+        "product_faq.txt"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 6.46,
+      "status": "answered",
+      "reason": null,
+      "answer": "The data retention period for Pro is 1 year, while Enterprise retains data for 7 years (configurable) [S2]. The uptime SLA for Pro is 99.9% monthly, and Enterprise includes a 99.95% monthly uptime SLA [S1].",
+      "cited_docs": [
+        "product_faq.txt",
+        "product_faq.txt"
+      ],
+      "warnings": [],
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "passed": true
+    },
+    {
+      "id": "M5",
+      "category": "multi_evidence",
+      "question": "For a 9-hour flight to Tokyo, which cabin class can I book and what is the nightly hotel limit there?",
+      "max_similarity": 0.7654,
+      "retrieved_docs": [
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md",
+        "information_security_policy.pdf",
+        "product_faq.txt"
+      ],
+      "source_recall": 1.0,
+      "mrr": 1.0,
+      "context_recall": 1.0,
+      "latency_s": 9.58,
+      "status": "answered",
+      "reason": null,
+      "answer": "For a 9-hour flight to Tokyo, premium economy may be booked because the flight duration is 6 hours or more [S2]. The nightly hotel limit in Tokyo is USD 250 per night [S1].",
+      "cited_docs": [
+        "travel_expense_policy.md",
+        "travel_expense_policy.md"
+      ],
+      "warnings": [],
+      "fact_coverage": 1.0,
+      "citation_precision": 1.0,
+      "passed": true
+    },
+    {
+      "id": "U1",
+      "category": "unanswerable",
+      "question": "How many weeks of parental leave do employees get?",
+      "max_similarity": 0.7217,
+      "retrieved_docs": [
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md"
+      ],
+      "latency_s": 4.07,
+      "status": "unavailable",
+      "reason": "not_in_documents",
+      "answer": "I could not find this information in the provided documents.",
+      "cited_docs": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "U2",
+      "category": "unanswerable",
+      "question": "Who is the CEO of Nimbus Analytics?",
+      "max_similarity": 0.7038,
+      "retrieved_docs": [
+        "employee_handbook.md",
+        "product_faq.txt",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md"
+      ],
+      "latency_s": 4.09,
+      "status": "unavailable",
+      "reason": "not_in_documents",
+      "answer": "I could not find this information in the provided documents.",
+      "cited_docs": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "U3",
+      "category": "unanswerable",
+      "question": "Who won the 2022 FIFA World Cup?",
+      "max_similarity": 0.4832,
+      "retrieved_docs": [
+        "product_faq.txt",
+        "employee_handbook.md",
+        "travel_expense_policy.md",
+        "employee_handbook.md",
+        "travel_expense_policy.md",
+        "travel_expense_policy.md"
+      ],
+      "latency_s": 0.04,
+      "status": "unavailable",
+      "reason": "low_relevance",
+      "answer": "I could not find this information in the provided documents.",
+      "cited_docs": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "U4",
+      "category": "unanswerable",
+      "question": "What percentage of salary does the company contribute to the employee retirement fund?",
+      "max_similarity": 0.6298,
+      "retrieved_docs": [
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "travel_expense_policy.md",
+        "employee_handbook.md"
+      ],
+      "latency_s": 2.17,
+      "status": "unavailable",
+      "reason": "not_in_documents",
+      "answer": "I could not find this information in the provided documents.",
+      "cited_docs": [],
+      "warnings": [],
+      "passed": true
+    },
+    {
+      "id": "U5",
+      "category": "unanswerable",
+      "question": "How many employees does Nimbus Analytics have?",
+      "max_similarity": 0.7528,
+      "retrieved_docs": [
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md",
+        "employee_handbook.md"
+      ],
+      "latency_s": 3.94,
+      "status": "unavailable",
+      "reason": "not_in_documents",
+      "answer": "I could not find this information in the provided documents.",
+      "cited_docs": [],
+      "warnings": [],
+      "passed": true
+    }
+  ]
+}
